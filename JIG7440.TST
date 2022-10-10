@@ -11,10 +11,11 @@ Edit History:
     2. Jumper description above for VCC/GND header
     3. Vectors now treat GND & VCC pins as UUT outputs
     4. Vectors are the same as the original 7440 file
-
+  v01, 10-Oct-2022, fixed bad AIP02 comment on pin 2
+  
 PINS
 1  I AL1 DIP01 IC pin 1  1A
-2  I AL2 AIP02 IC pin 2  1B
+2  I AL2 DIP02 IC pin 2  1B
 3  I AM2 DIP04 IC pin 4  1C
 4  I AN1 DIP05 IC pin 5  1D
 5  O AN2 DIP06 IC pin 6  2Y GATE 1 OUTPUT
