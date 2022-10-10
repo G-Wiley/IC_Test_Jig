@@ -1,0 +1,171 @@
+file version v00
+* PINS sections for various package sizes that can be copied-and-pasted to make your own TST file
+* Columns from "DIPxx" to the right are just comments.
+* DIPxx and the 36-pin DEC connector pin number to the left of it shows which DEC pin corresponds
+    to which 28-pin socket pin number.
+* Change the order of rows in the PINS section as you like, but change the numbers in the
+    left-most column to be sequential in the PINS section.
+* Edit the second column with "IO". It needs to be a single character, either I, O, or P.
+
+(PINS section for a 14-pin IC)
+PINS
+1  IO AL1 DIP01 IC pin 1
+2  IO AL2 DIP02 IC pin 2
+3  IO AM1 DIP03 IC pin 3
+4  IO AM2 DIP04 IC pin 4
+5  IO AN1 DIP05 IC pin 5
+6  IO AN2 DIP06 IC pin 6
+7  IO AP1 DIP07 IC pin 7
+8  IO AF1 DIP22 IC pin 8
+9  IO AH2 DIP23 IC pin 9
+10 IO AH1 DIP24 IC pin 10
+11 IO AJ2 DIP25 IC pin 11
+12 IO AJ1 DIP26 IC pin 12
+13 IO AK2 DIP27 IC pin 13
+14 IO AK1 DIP28 IC pin 14
+
+(PINS section for a 16-pin IC)
+PINS
+1  IO AL1 DIP01 IC pin 1
+2  IO AL2 DIP02 IC pin 2
+3  IO AM1 DIP03 IC pin 3
+4  IO AM2 DIP04 IC pin 4
+5  IO AN1 DIP05 IC pin 5
+6  IO AN2 DIP06 IC pin 6
+7  IO AP1 DIP07 IC pin 7
+8  IO AP2 DIP08 IC pin 8
+9  IO AF2 DIP21 IC pin 9
+10 IO AF1 DIP22 IC pin 10
+11 IO AH2 DIP23 IC pin 11
+12 IO AH1 DIP24 IC pin 12
+13 IO AJ2 DIP25 IC pin 13
+14 IO AJ1 DIP26 IC pin 14
+15 IO AK2 DIP27 IC pin 15
+16 IO AK1 DIP28 IC pin 16
+
+(PINS section for a 18-pin IC)
+PINS
+1  IO AL1 DIP01 IC pin 1
+2  IO AL2 DIP02 IC pin 2
+3  IO AM1 DIP03 IC pin 3
+4  IO AM2 DIP04 IC pin 4
+5  IO AN1 DIP05 IC pin 5
+6  IO AN2 DIP06 IC pin 6
+7  IO AP1 DIP07 IC pin 7
+8  IO AP2 DIP08 IC pin 8
+9  IO AR1 DIP09 IC pin 9
+10 IO AE1 DIP20 IC pin 10
+11 IO AF2 DIP21 IC pin 11
+12 IO AF1 DIP22 IC pin 12
+13 IO AH2 DIP23 IC pin 13
+14 IO AH1 DIP24 IC pin 14
+15 IO AJ2 DIP25 IC pin 15
+16 IO AJ1 DIP26 IC pin 16
+17 IO AK2 DIP27 IC pin 17
+18 IO AK1 DIP28 IC pin 18
+
+(PINS section for a 20-pin IC)
+PINS
+1  IO AL1 DIP01 IC pin 1
+2  IO AL2 DIP02 IC pin 2
+3  IO AM1 DIP03 IC pin 3
+4  IO AM2 DIP04 IC pin 4
+5  IO AN1 DIP05 IC pin 5
+6  IO AN2 DIP06 IC pin 6
+7  IO AP1 DIP07 IC pin 7
+8  IO AP2 DIP08 IC pin 8
+9  IO AR1 DIP09 IC pin 9
+10 IO AR2 DIP10 IC pin 10
+11 IO AE2 DIP19 IC pin 11
+12 IO AE1 DIP20 IC pin 12
+13 IO AF2 DIP21 IC pin 13
+14 IO AF1 DIP22 IC pin 14
+15 IO AH2 DIP23 IC pin 15
+16 IO AH1 DIP24 IC pin 16
+17 IO AJ2 DIP25 IC pin 17
+18 IO AJ1 DIP26 IC pin 18
+19 IO AK2 DIP27 IC pin 19
+20 IO AK1 DIP28 IC pin 20
+
+(PINS section for a 22-pin IC, uncommon but there is a standard 0.4" 22-pin DIP)
+PINS
+1  IO AL1 DIP01 IC pin 1
+2  IO AL2 DIP02 IC pin 2
+3  IO AM1 DIP03 IC pin 3
+4  IO AM2 DIP04 IC pin 4
+5  IO AN1 DIP05 IC pin 5
+6  IO AN2 DIP06 IC pin 6
+7  IO AP1 DIP07 IC pin 7
+8  IO AP2 DIP08 IC pin 8
+9  IO AR1 DIP09 IC pin 9
+10 IO AR2 DIP10 IC pin 10
+11 IO AS1 DIP11 IC pin 11
+12 IO AD1 DIP18 IC pin 12
+13 IO AE2 DIP19 IC pin 13
+14 IO AE1 DIP20 IC pin 14
+15 IO AF2 DIP21 IC pin 15
+16 IO AF1 DIP22 IC pin 16
+17 IO AH2 DIP23 IC pin 17
+18 IO AH1 DIP24 IC pin 18
+19 IO AJ2 DIP25 IC pin 19
+20 IO AJ1 DIP26 IC pin 20
+21 IO AK2 DIP27 IC pin 21
+22 IO AK1 DIP28 IC pin 22
+
+(PINS section for a 24-pin IC)
+PINS
+1  IO AL1 DIP01 IC pin 1
+2  IO AL2 DIP02 IC pin 2
+3  IO AM1 DIP03 IC pin 3
+4  IO AM2 DIP04 IC pin 4
+5  IO AN1 DIP05 IC pin 5
+6  IO AN2 DIP06 IC pin 6
+7  IO AP1 DIP07 IC pin 7
+8  IO AP2 DIP08 IC pin 8
+9  IO AR1 DIP09 IC pin 9
+10 IO AR2 DIP10 IC pin 10
+11 IO AS1 DIP11 IC pin 11
+12 IO AS2 DIP12 IC pin 12
+13 IO AD2 DIP17 IC pin 13
+14 IO AD1 DIP18 IC pin 14
+15 IO AE2 DIP19 IC pin 15
+16 IO AE1 DIP20 IC pin 16
+17 IO AF2 DIP21 IC pin 17
+18 IO AF1 DIP22 IC pin 18
+19 IO AH2 DIP23 IC pin 19
+20 IO AH1 DIP24 IC pin 20
+21 IO AJ2 DIP25 IC pin 21
+22 IO AJ1 DIP26 IC pin 22
+23 IO AK2 DIP27 IC pin 23
+24 IO AK1 DIP28 IC pin 24
+
+(PINS section for a 28-pin IC)
+PINS
+1  IO AL1 DIP01 IC pin 1
+2  IO AL2 DIP02 IC pin 2
+3  IO AM1 DIP03 IC pin 3
+4  IO AM2 DIP04 IC pin 4
+5  IO AN1 DIP05 IC pin 5
+6  IO AN2 DIP06 IC pin 6
+7  IO AP1 DIP07 IC pin 7
+8  IO AP2 DIP08 IC pin 8
+9  IO AR1 DIP09 IC pin 9
+10 IO AR2 DIP10 IC pin 10
+11 IO AS1 DIP11 IC pin 11
+12 IO AS2 DIP12 IC pin 12
+13 IO AU1 DIP13 IC pin 13
+14 IO AU2 DIP14 IC pin 14
+15 IO AB2 DIP15 IC pin 15
+16 IO AB1 DIP16 IC pin 16
+17 IO AD2 DIP17 IC pin 17
+18 IO AD1 DIP18 IC pin 18
+19 IO AE2 DIP19 IC pin 19
+20 IO AE1 DIP20 IC pin 10
+21 IO AF2 DIP21 IC pin 21
+22 IO AF1 DIP22 IC pin 22
+23 IO AH2 DIP23 IC pin 23
+24 IO AH1 DIP24 IC pin 24
+25 IO AJ2 DIP25 IC pin 25
+26 IO AJ1 DIP26 IC pin 26
+27 IO AK2 DIP27 IC pin 27
+28 IO AK1 DIP28 IC pin 28
