@@ -7,6 +7,7 @@ Jumpers on the Jig board:
 
 Edit History:
   v00, 10-Oct-2022, created simple set of vectors to test the decoder
+  v01, 10-Oct-2022, fixed bad AIP02 comment on pin 2
 
 PINS
 1  I AF1 DIP22 IC pin 18 G1/
@@ -16,7 +17,7 @@ PINS
 5  I AJ1 DIP26 IC pin 22 B
 6  I AK2 DIP27 IC pin 23 A
 7  O AL1 DIP01 IC pin 1 OUT0
-8  O AL2 AIP02 IC pin 2 OUT1
+8  O AL2 DIP02 IC pin 2 OUT1
 9  O AM1 DIP03 IC pin 3 OUT2
 10 O AM2 DIP04 IC pin 4 OUT3
 11 O AN1 DIP05 IC pin 5 OUT4
